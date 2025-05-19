@@ -6,7 +6,7 @@ import { EventCard } from '@/components/events/EventCard';
 import { Event } from '@/types/event';
 import { eventService } from '@/services/eventService';
 import { Button } from '@/components/ui/button';
-import { Search } from 'lucide-react';
+import { Search, Calendar, MessageSquare, Users } from 'lucide-react';
 import { Input } from '@/components/ui/input';
 
 const Index = () => {
@@ -171,5 +171,3 @@ const Index = () => {
 
 export default Index;
 
-// Import Calendar, MessageSquare et Users depuis lucide-react
-import { Search, Calendar, MessageSquare, Users } from 'lucide-react';
